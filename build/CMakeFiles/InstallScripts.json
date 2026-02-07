@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/yousef/EarthquakeMonitor/build/cmake_install.cmake",
+		"/Users/yousef/EarthquakeMonitor/build/external/glfw/cmake_install.cmake",
+		"/Users/yousef/EarthquakeMonitor/build/external/glfw/src/cmake_install.cmake",
+		"/Users/yousef/EarthquakeMonitor/build/external/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
