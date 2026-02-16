@@ -60,7 +60,7 @@ void EnsureFlagLoaded(const std::string& region) {
 
     if (!isoCodes.count(region)) return;
 
-    httplib::SSLClient cli("flagcdn.com");
+    httplib::Client cli("flagcdn.com");
     cli.set_follow_location(true);
     auto res = cli.Get(("/w80/" + isoCodes.at(region) + ".png").c_str());
 
@@ -71,7 +71,7 @@ void EnsureFlagLoaded(const std::string& region) {
 
 // --- HELPER: Download Map ---
 GLuint DownloadMapFromAPI() {
-    httplib::SSLClient cli("upload.wikimedia.org");
+    httplib::Client cli("upload.wikimedia.org");
     cli.set_follow_location(true);
     auto res = cli.Get("/wikipedia/commons/8/83/Equirectangular_projection_SW.jpg");
     return (res && res->status == 200) ? LoadTextureFromMemory(res->body) : 0;

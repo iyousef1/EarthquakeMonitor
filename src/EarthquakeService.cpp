@@ -69,7 +69,7 @@ void EarthquakeService::fetchNow() {
         m_status = "Fetching...";
     }
 
-    httplib::SSLClient cli("earthquake.usgs.gov", 443);
+    httplib::Client cli("earthquake.usgs.gov", 443);
     cli.set_follow_location(true);
 
     auto res = cli.Get("/earthquakes/feed/v1.0/summary/all_day.geojson");
