@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yousef/EarthquakeMonitor
+CMAKE_SOURCE_DIR = /Users/yousef/Desktop/EarthquakeMonitor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yousef/EarthquakeMonitor/build
+CMAKE_BINARY_DIR = /Users/yousef/Desktop/EarthquakeMonitor/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/EarthquakeMonitor.dir/depend.make
@@ -72,121 +72,136 @@ include CMakeFiles/EarthquakeMonitor.dir/flags.make
 CMakeFiles/EarthquakeMonitor.dir/codegen:
 .PHONY : CMakeFiles/EarthquakeMonitor.dir/codegen
 
-CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.o: CMakeFiles/EarthquakeMonitor.dir/flags.make
-CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.o: /Users/yousef/EarthquakeMonitor/src/main.cpp
-CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.o: CMakeFiles/EarthquakeMonitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.o -c /Users/yousef/EarthquakeMonitor/src/main.cpp
+CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.o: CMakeFiles/EarthquakeMonitor.dir/flags.make
+CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.o: /Users/yousef/Desktop/EarthquakeMonitor/src/Main.cpp
+CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.o: CMakeFiles/EarthquakeMonitor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.o -c /Users/yousef/Desktop/EarthquakeMonitor/src/Main.cpp
 
-CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/EarthquakeMonitor/src/main.cpp > CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.i
+CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/Desktop/EarthquakeMonitor/src/Main.cpp > CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.i
 
-CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/EarthquakeMonitor/src/main.cpp -o CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.s
+CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/Desktop/EarthquakeMonitor/src/Main.cpp -o CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.s
+
+CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.o: CMakeFiles/EarthquakeMonitor.dir/flags.make
+CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.o: /Users/yousef/Desktop/EarthquakeMonitor/src/EarthquakeService.cpp
+CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.o: CMakeFiles/EarthquakeMonitor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.o -c /Users/yousef/Desktop/EarthquakeMonitor/src/EarthquakeService.cpp
+
+CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/Desktop/EarthquakeMonitor/src/EarthquakeService.cpp > CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.i
+
+CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/Desktop/EarthquakeMonitor/src/EarthquakeService.cpp -o CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.s
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o: CMakeFiles/EarthquakeMonitor.dir/flags.make
-CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o: /Users/yousef/EarthquakeMonitor/external/imgui/imgui.cpp
+CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o: /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui.cpp
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o: CMakeFiles/EarthquakeMonitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o -c /Users/yousef/EarthquakeMonitor/external/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o -c /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui.cpp
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/EarthquakeMonitor/external/imgui/imgui.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.i
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/EarthquakeMonitor/external/imgui/imgui.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.s
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o: CMakeFiles/EarthquakeMonitor.dir/flags.make
-CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o: /Users/yousef/EarthquakeMonitor/external/imgui/imgui_demo.cpp
+CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o: /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_demo.cpp
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o: CMakeFiles/EarthquakeMonitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o -c /Users/yousef/EarthquakeMonitor/external/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o -c /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_demo.cpp
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/EarthquakeMonitor/external/imgui/imgui_demo.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_demo.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.i
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/EarthquakeMonitor/external/imgui/imgui_demo.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_demo.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.s
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/EarthquakeMonitor.dir/flags.make
-CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o: /Users/yousef/EarthquakeMonitor/external/imgui/imgui_draw.cpp
+CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o: /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_draw.cpp
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/EarthquakeMonitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o -c /Users/yousef/EarthquakeMonitor/external/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o -c /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_draw.cpp
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/EarthquakeMonitor/external/imgui/imgui_draw.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_draw.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.i
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/EarthquakeMonitor/external/imgui/imgui_draw.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_draw.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.s
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/EarthquakeMonitor.dir/flags.make
-CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.o: /Users/yousef/EarthquakeMonitor/external/imgui/imgui_tables.cpp
+CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.o: /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_tables.cpp
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/EarthquakeMonitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.o -c /Users/yousef/EarthquakeMonitor/external/imgui/imgui_tables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.o -c /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_tables.cpp
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/EarthquakeMonitor/external/imgui/imgui_tables.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_tables.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.i
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/EarthquakeMonitor/external/imgui/imgui_tables.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_tables.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.s
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/EarthquakeMonitor.dir/flags.make
-CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o: /Users/yousef/EarthquakeMonitor/external/imgui/imgui_widgets.cpp
+CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o: /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_widgets.cpp
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/EarthquakeMonitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o -c /Users/yousef/EarthquakeMonitor/external/imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o -c /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_widgets.cpp
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/EarthquakeMonitor/external/imgui/imgui_widgets.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_widgets.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.i
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/EarthquakeMonitor/external/imgui/imgui_widgets.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_widgets.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.s
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/EarthquakeMonitor.dir/flags.make
-CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: /Users/yousef/EarthquakeMonitor/external/imgui/backends/imgui_impl_glfw.cpp
+CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends/imgui_impl_glfw.cpp
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/EarthquakeMonitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -c /Users/yousef/EarthquakeMonitor/external/imgui/backends/imgui_impl_glfw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -c /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends/imgui_impl_glfw.cpp
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/EarthquakeMonitor/external/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.i
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/EarthquakeMonitor/external/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.s
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/EarthquakeMonitor.dir/flags.make
-CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: /Users/yousef/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3.cpp
+CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3.cpp
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/EarthquakeMonitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /Users/yousef/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3.cpp
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i
 
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s
 
 # Object files for target EarthquakeMonitor
 EarthquakeMonitor_OBJECTS = \
-"CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.o" \
+"CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.o" \
+"CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.o" \
 "CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o" \
 "CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o" \
 "CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o" \
@@ -198,7 +213,8 @@ EarthquakeMonitor_OBJECTS = \
 # External object files for target EarthquakeMonitor
 EarthquakeMonitor_EXTERNAL_OBJECTS =
 
-EarthquakeMonitor: CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.o
+EarthquakeMonitor: CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.o
+EarthquakeMonitor: CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.o
 EarthquakeMonitor: CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o
 EarthquakeMonitor: CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o
 EarthquakeMonitor: CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_draw.cpp.o
@@ -211,7 +227,7 @@ EarthquakeMonitor: external/glfw/src/libglfw3.a
 EarthquakeMonitor: /opt/homebrew/Cellar/openssl@3/3.6.1/lib/libssl.dylib
 EarthquakeMonitor: /opt/homebrew/Cellar/openssl@3/3.6.1/lib/libcrypto.dylib
 EarthquakeMonitor: CMakeFiles/EarthquakeMonitor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/yousef/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable EarthquakeMonitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable EarthquakeMonitor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EarthquakeMonitor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -223,6 +239,6 @@ CMakeFiles/EarthquakeMonitor.dir/clean:
 .PHONY : CMakeFiles/EarthquakeMonitor.dir/clean
 
 CMakeFiles/EarthquakeMonitor.dir/depend:
-	cd /Users/yousef/EarthquakeMonitor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yousef/EarthquakeMonitor /Users/yousef/EarthquakeMonitor /Users/yousef/EarthquakeMonitor/build /Users/yousef/EarthquakeMonitor/build /Users/yousef/EarthquakeMonitor/build/CMakeFiles/EarthquakeMonitor.dir/DependInfo.cmake "--color=$(COLOR)" EarthquakeMonitor
+	cd /Users/yousef/Desktop/EarthquakeMonitor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yousef/Desktop/EarthquakeMonitor /Users/yousef/Desktop/EarthquakeMonitor /Users/yousef/Desktop/EarthquakeMonitor/build /Users/yousef/Desktop/EarthquakeMonitor/build /Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles/EarthquakeMonitor.dir/DependInfo.cmake "--color=$(COLOR)" EarthquakeMonitor
 .PHONY : CMakeFiles/EarthquakeMonitor.dir/depend
 

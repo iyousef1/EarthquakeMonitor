@@ -13,8 +13,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_tables.cpp.o.d"
   "CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o"
   "CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.o.d"
-  "CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.o"
-  "CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.o.d"
+  "CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.o"
+  "CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.o.d"
+  "CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.o"
+  "CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.o.d"
   "EarthquakeMonitor"
   "EarthquakeMonitor.pdb"
 )

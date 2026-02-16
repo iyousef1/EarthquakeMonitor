@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCPPHTTPLIB_OPENSSL_SUPPORT -DGL_SILENCE_DEPRECATION
 
-CXX_INCLUDES = -I/Users/yousef/EarthquakeMonitor/external/imgui -I/Users/yousef/EarthquakeMonitor/external/imgui/backends -I/Users/yousef/EarthquakeMonitor/external -I/Users/yousef/EarthquakeMonitor/external/httplib -I/Users/yousef/EarthquakeMonitor/external/json -I/Users/yousef/EarthquakeMonitor/external/glfw/include -isystem /opt/homebrew/Cellar/openssl@3/3.6.1/include
+CXX_INCLUDES = -I/Users/yousef/Desktop/EarthquakeMonitor/src -I/Users/yousef/Desktop/EarthquakeMonitor/external/imgui -I/Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends -I/Users/yousef/Desktop/EarthquakeMonitor/external -I/Users/yousef/Desktop/EarthquakeMonitor/external/httplib -I/Users/yousef/Desktop/EarthquakeMonitor/external/json -I/Users/yousef/Desktop/EarthquakeMonitor/external/glfw/include -isystem /opt/homebrew/Cellar/openssl@3/3.6.1/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 

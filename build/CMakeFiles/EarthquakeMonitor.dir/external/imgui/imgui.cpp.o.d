@@ -1,7 +1,7 @@
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o: \
-  /Users/yousef/EarthquakeMonitor/external/imgui/imgui.cpp \
-  /Users/yousef/EarthquakeMonitor/external/imgui/imgui.h \
-  /Users/yousef/EarthquakeMonitor/external/imgui/imconfig.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui.cpp \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -68,7 +68,7 @@ CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/yousef/EarthquakeMonitor/external/imgui/imgui_internal.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_internal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \

@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yousef/EarthquakeMonitor
+CMAKE_SOURCE_DIR = /Users/yousef/Desktop/EarthquakeMonitor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yousef/EarthquakeMonitor/build
+CMAKE_BINARY_DIR = /Users/yousef/Desktop/EarthquakeMonitor/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/yousef/EarthquakeMonitor/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/yousef/EarthquakeMonitor/build/CMakeFiles /Users/yousef/EarthquakeMonitor/build/external/glfw/docs//CMakeFiles/progress.marks
-	cd /Users/yousef/EarthquakeMonitor/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glfw/docs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yousef/EarthquakeMonitor/build/CMakeFiles 0
+	cd /Users/yousef/Desktop/EarthquakeMonitor/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles /Users/yousef/Desktop/EarthquakeMonitor/build/external/glfw/docs//CMakeFiles/progress.marks
+	cd /Users/yousef/Desktop/EarthquakeMonitor/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glfw/docs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/yousef/EarthquakeMonitor/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glfw/docs/clean
+	cd /Users/yousef/Desktop/EarthquakeMonitor/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glfw/docs/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +148,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/yousef/EarthquakeMonitor/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glfw/docs/preinstall
+	cd /Users/yousef/Desktop/EarthquakeMonitor/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glfw/docs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/yousef/EarthquakeMonitor/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glfw/docs/preinstall
+	cd /Users/yousef/Desktop/EarthquakeMonitor/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glfw/docs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/yousef/EarthquakeMonitor/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/yousef/Desktop/EarthquakeMonitor/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/yousef/EarthquakeMonitor/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/yousef/Desktop/EarthquakeMonitor/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

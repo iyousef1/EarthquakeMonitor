@@ -5,7 +5,7 @@
 # compile OBJC with /usr/bin/clang
 C_DEFINES = -D_GLFW_COCOA
 
-C_INCLUDES = -I/Users/yousef/EarthquakeMonitor/external/glfw/include -I/Users/yousef/EarthquakeMonitor/external/glfw/src -I/Users/yousef/EarthquakeMonitor/build/external/glfw/src
+C_INCLUDES = -I/Users/yousef/Desktop/EarthquakeMonitor/external/glfw/include -I/Users/yousef/Desktop/EarthquakeMonitor/external/glfw/src -I/Users/yousef/Desktop/EarthquakeMonitor/build/external/glfw/src
 
 C_FLAGSarm64 = -std=c99 -arch arm64 -fPIC -Wall
 
@@ -13,7 +13,7 @@ C_FLAGS = -std=c99 -arch arm64 -fPIC -Wall
 
 OBJC_DEFINES = -D_GLFW_COCOA
 
-OBJC_INCLUDES = -I/Users/yousef/EarthquakeMonitor/external/glfw/include -I/Users/yousef/EarthquakeMonitor/external/glfw/src -I/Users/yousef/EarthquakeMonitor/build/external/glfw/src
+OBJC_INCLUDES = -I/Users/yousef/Desktop/EarthquakeMonitor/external/glfw/include -I/Users/yousef/Desktop/EarthquakeMonitor/external/glfw/src -I/Users/yousef/Desktop/EarthquakeMonitor/build/external/glfw/src
 
 OBJC_FLAGSarm64 = -std=c99 -arch arm64 -fPIC -Wall
 

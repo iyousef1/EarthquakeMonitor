@@ -1,7 +1,7 @@
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: \
-  /Users/yousef/EarthquakeMonitor/external/imgui/backends/imgui_impl_glfw.cpp \
-  /Users/yousef/EarthquakeMonitor/external/imgui/imgui.h \
-  /Users/yousef/EarthquakeMonitor/external/imgui/imconfig.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends/imgui_impl_glfw.cpp \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -68,8 +68,8 @@ CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: 
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/yousef/EarthquakeMonitor/external/imgui/backends/imgui_impl_glfw.h \
-  /Users/yousef/EarthquakeMonitor/external/glfw/include/GLFW/glfw3.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends/imgui_impl_glfw.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/glfw/include/GLFW/glfw3.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
@@ -84,7 +84,7 @@ CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: 
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/os/availability.h \
-  /Users/yousef/EarthquakeMonitor/external/glfw/include/GLFW/glfw3native.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/glfw/include/GLFW/glfw3native.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \

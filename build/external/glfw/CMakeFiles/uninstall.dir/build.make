@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yousef/EarthquakeMonitor
+CMAKE_SOURCE_DIR = /Users/yousef/Desktop/EarthquakeMonitor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yousef/EarthquakeMonitor/build
+CMAKE_BINARY_DIR = /Users/yousef/Desktop/EarthquakeMonitor/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include external/glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include external/glfw/CMakeFiles/uninstall.dir/progress.make
 
 external/glfw/CMakeFiles/uninstall:
-	cd /Users/yousef/EarthquakeMonitor/build/external/glfw && /opt/homebrew/bin/cmake -P /Users/yousef/EarthquakeMonitor/build/external/glfw/cmake_uninstall.cmake
+	cd /Users/yousef/Desktop/EarthquakeMonitor/build/external/glfw && /opt/homebrew/bin/cmake -P /Users/yousef/Desktop/EarthquakeMonitor/build/external/glfw/cmake_uninstall.cmake
 
 external/glfw/CMakeFiles/uninstall.dir/codegen:
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/codegen
@@ -81,10 +81,10 @@ external/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/build
 
 external/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /Users/yousef/EarthquakeMonitor/build/external/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /Users/yousef/Desktop/EarthquakeMonitor/build/external/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/clean
 
 external/glfw/CMakeFiles/uninstall.dir/depend:
-	cd /Users/yousef/EarthquakeMonitor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yousef/EarthquakeMonitor /Users/yousef/EarthquakeMonitor/external/glfw /Users/yousef/EarthquakeMonitor/build /Users/yousef/EarthquakeMonitor/build/external/glfw /Users/yousef/EarthquakeMonitor/build/external/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)" uninstall
+	cd /Users/yousef/Desktop/EarthquakeMonitor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yousef/Desktop/EarthquakeMonitor /Users/yousef/Desktop/EarthquakeMonitor/external/glfw /Users/yousef/Desktop/EarthquakeMonitor/build /Users/yousef/Desktop/EarthquakeMonitor/build/external/glfw /Users/yousef/Desktop/EarthquakeMonitor/build/external/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)" uninstall
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/depend
 

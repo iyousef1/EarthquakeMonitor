@@ -1,7 +1,7 @@
 external/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o: \
-  /Users/yousef/EarthquakeMonitor/external/glfw/src/nsgl_context.m \
-  /Users/yousef/EarthquakeMonitor/external/glfw/src/internal.h \
-  /Users/yousef/EarthquakeMonitor/external/glfw/src/../include/GLFW/glfw3.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/glfw/src/nsgl_context.m \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/glfw/src/internal.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/glfw/src/../include/GLFW/glfw3.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -33,9 +33,9 @@ external/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdbool.h \
-  /Users/yousef/EarthquakeMonitor/external/glfw/src/platform.h \
-  /Users/yousef/EarthquakeMonitor/external/glfw/src/null_platform.h \
-  /Users/yousef/EarthquakeMonitor/external/glfw/src/cocoa_platform.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/glfw/src/platform.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/glfw/src/null_platform.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/glfw/src/cocoa_platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \
@@ -1426,13 +1426,13 @@ external/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSLightweightMigrationStage.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSManagedObjectModelReference.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSCoreDataCoreSpotlightDelegate.h \
-  /Users/yousef/EarthquakeMonitor/external/glfw/src/null_joystick.h \
-  /Users/yousef/EarthquakeMonitor/external/glfw/src/cocoa_joystick.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/glfw/src/null_joystick.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/glfw/src/cocoa_joystick.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOCFPlugIn.h \
-  /Users/yousef/EarthquakeMonitor/external/glfw/src/posix_thread.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/glfw/src/posix_thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/qos.h \
-  /Users/yousef/EarthquakeMonitor/external/glfw/src/cocoa_time.h \
-  /Users/yousef/EarthquakeMonitor/external/glfw/src/../include/GLFW/glfw3native.h
+  /Users/yousef/Desktop/EarthquakeMonitor/external/glfw/src/cocoa_time.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/glfw/src/../include/GLFW/glfw3native.h

@@ -1,7 +1,7 @@
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: \
-  /Users/yousef/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3.cpp \
-  /Users/yousef/EarthquakeMonitor/external/imgui/imgui.h \
-  /Users/yousef/EarthquakeMonitor/external/imgui/imconfig.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3.cpp \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -68,7 +68,7 @@ CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/yousef/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
@@ -88,7 +88,7 @@ CMakeFiles/EarthquakeMonitor.dir/external/imgui/backends/imgui_impl_opengl3.cpp.
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/yousef/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3_loader.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/backends/imgui_impl_opengl3_loader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \

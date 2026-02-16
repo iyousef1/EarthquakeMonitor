@@ -1,7 +1,7 @@
 CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_demo.cpp.o: \
-  /Users/yousef/EarthquakeMonitor/external/imgui/imgui_demo.cpp \
-  /Users/yousef/EarthquakeMonitor/external/imgui/imgui.h \
-  /Users/yousef/EarthquakeMonitor/external/imgui/imconfig.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui_demo.cpp \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imgui.h \
+  /Users/yousef/Desktop/EarthquakeMonitor/external/imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

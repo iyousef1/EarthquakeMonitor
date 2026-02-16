@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/Users/yousef/EarthquakeMonitor/build/external/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/Users/yousef/EarthquakeMonitor/build/external/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/Users/yousef/Desktop/EarthquakeMonitor/build/external/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/Users/yousef/Desktop/EarthquakeMonitor/build/external/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/Users/yousef/EarthquakeMonitor/build/external/glfw/install_manifest.txt" files)
+file(READ "/Users/yousef/Desktop/EarthquakeMonitor/build/external/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

@@ -4,14 +4,16 @@ project(EarthquakeMonitor LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# GLFW
+# 1. External Dependencies
 add_subdirectory(external/glfw)
-
-# ImGui sources
 set(IMGUI_DIR ${CMAKE_SOURCE_DIR}/external/imgui)
 
+# 2. Main Executable
+# I have removed MapWidget.cpp and FavoritesManager.cpp because they don't exist.
+# I changed main.cpp to Main.cpp to match your actual filename.
 add_executable(EarthquakeMonitor
-    src/main.cpp
+    src/Main.cpp
+    src/EarthquakeService.cpp
 
     ${IMGUI_DIR}/imgui.cpp
     ${IMGUI_DIR}/imgui_demo.cpp
@@ -23,7 +25,9 @@ add_executable(EarthquakeMonitor
     ${IMGUI_DIR}/backends/imgui_impl_opengl3.cpp
 )
 
+# 3. Include Directories
 target_include_directories(EarthquakeMonitor PRIVATE
+    src
     ${IMGUI_DIR}
     ${IMGUI_DIR}/backends
     ${CMAKE_SOURCE_DIR}/external
@@ -31,6 +35,7 @@ target_include_directories(EarthquakeMonitor PRIVATE
     ${CMAKE_SOURCE_DIR}/external/json
 )
 
+# 4. Linking
 target_link_libraries(EarthquakeMonitor PRIVATE glfw)
 
 if(APPLE)
@@ -43,8 +48,6 @@ if(APPLE)
   target_compile_definitions(EarthquakeMonitor PRIVATE GL_SILENCE_DEPRECATION)
 endif()
 
-# HTTPS support for cpp-httplib
 find_package(OpenSSL REQUIRED)
 target_link_libraries(EarthquakeMonitor PRIVATE OpenSSL::SSL OpenSSL::Crypto)
 target_compile_definitions(EarthquakeMonitor PRIVATE CPPHTTPLIB_OPENSSL_SUPPORT)
-

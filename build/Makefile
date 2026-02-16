@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yousef/EarthquakeMonitor
+CMAKE_SOURCE_DIR = /Users/yousef/Desktop/EarthquakeMonitor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yousef/EarthquakeMonitor/build
+CMAKE_BINARY_DIR = /Users/yousef/Desktop/EarthquakeMonitor/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yousef/EarthquakeMonitor/build/CMakeFiles /Users/yousef/EarthquakeMonitor/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles /Users/yousef/Desktop/EarthquakeMonitor/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yousef/EarthquakeMonitor/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yousef/Desktop/EarthquakeMonitor/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -381,29 +381,53 @@ external/imgui/imgui_widgets.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EarthquakeMonitor.dir/build.make CMakeFiles/EarthquakeMonitor.dir/external/imgui/imgui_widgets.cpp.s
 .PHONY : external/imgui/imgui_widgets.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/EarthquakeService.o: src/EarthquakeService.cpp.o
+.PHONY : src/EarthquakeService.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EarthquakeMonitor.dir/build.make CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/EarthquakeService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EarthquakeMonitor.dir/build.make CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.o
+.PHONY : src/EarthquakeService.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/EarthquakeService.i: src/EarthquakeService.cpp.i
+.PHONY : src/EarthquakeService.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EarthquakeMonitor.dir/build.make CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/EarthquakeService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EarthquakeMonitor.dir/build.make CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.i
+.PHONY : src/EarthquakeService.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/EarthquakeService.s: src/EarthquakeService.cpp.s
+.PHONY : src/EarthquakeService.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EarthquakeMonitor.dir/build.make CMakeFiles/EarthquakeMonitor.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/EarthquakeService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EarthquakeMonitor.dir/build.make CMakeFiles/EarthquakeMonitor.dir/src/EarthquakeService.cpp.s
+.PHONY : src/EarthquakeService.cpp.s
+
+src/Main.o: src/Main.cpp.o
+.PHONY : src/Main.o
+
+# target to build an object file
+src/Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EarthquakeMonitor.dir/build.make CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.o
+.PHONY : src/Main.cpp.o
+
+src/Main.i: src/Main.cpp.i
+.PHONY : src/Main.i
+
+# target to preprocess a source file
+src/Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EarthquakeMonitor.dir/build.make CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.i
+.PHONY : src/Main.cpp.i
+
+src/Main.s: src/Main.cpp.s
+.PHONY : src/Main.s
+
+# target to generate assembly for a file
+src/Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EarthquakeMonitor.dir/build.make CMakeFiles/EarthquakeMonitor.dir/src/Main.cpp.s
+.PHONY : src/Main.cpp.s
 
 # Help Target
 help:
@@ -442,9 +466,12 @@ help:
 	@echo "... external/imgui/imgui_widgets.o"
 	@echo "... external/imgui/imgui_widgets.i"
 	@echo "... external/imgui/imgui_widgets.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/EarthquakeService.o"
+	@echo "... src/EarthquakeService.i"
+	@echo "... src/EarthquakeService.s"
+	@echo "... src/Main.o"
+	@echo "... src/Main.i"
+	@echo "... src/Main.s"
 .PHONY : help
 
 
